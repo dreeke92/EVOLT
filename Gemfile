@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 ruby '2.5.3'
 
 gem 'bootsnap', require: false
+gem 'jquery'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.2.0'
+gem 'jquery-rails'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -14,6 +16,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'wow-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

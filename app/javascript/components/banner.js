@@ -1,0 +1,7 @@
+function bannerVisuals() {
+}
+
+
+
+
+export { bannerVisuals };
