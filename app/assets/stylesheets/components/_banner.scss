@@ -1,5 +1,6 @@
 .evolt-banner{
   font-size: 100%;
+  max-height: 100vh;
 }
 
 .evolt-banner-container{
@@ -8,7 +9,6 @@
   position: relative;
   font-size: 100%;
   margin: 0;
-  min-height: 100vh;
   height: 100vh;
   // background: #0D0D1A url('https://www.expatica.com/be/wp-content/uploads/sites/4/2018/02/brussels2.jpg') no-repeat;
   background-image: linear-gradient(-225deg, rgba(#0D0D1A,0.7) 50%, rgba(#0D0D1A,0.7) 100%), url('https://www.expatica.com/be/wp-content/uploads/sites/4/2018/02/brussels2.jpg');
@@ -26,6 +26,47 @@
 
 .red {
   color: #DC4C42;
+}
+
+.green{
+  color: #6bd292;
+}
+
+/*-- ================== Logo ====================== --*/
+
+
+.evolt-logo-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.evolt-logo{
+
+  // right: 10px;
+  // top: 10px;
+  height: 136px;
+  width: 132px;
+  margin: 5px;
+}
+
+
+
+/*-- ================== logo - EXTRA SMALL ====================== --*/
+
+@media only screen and (max-height: 481px) {
+  .evolt-logo{
+    height: 136px;
+    width: 132px;
+  }
+}
+
+
+/*-- ================== logo - SMALL DEVICES, TABLETS ====================== --*/
+
+@media only screen and (max-width: 768px) {
+  .evolt-logo{
+    height: 68px;
+    width: 66px;
+  }
 }
 
 
@@ -152,20 +193,20 @@
 
 .evolt-banner h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 9m;
+  font-size: 8em;
   color: #ffffff;
-  margin-top: 0.1em;
-  margin-bottom: 0;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
   line-height: 1;
   text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 .evolt-banner h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2em;
+  font-size: 3em;
   color: #ffffff;
-  margin-top: 0;
-  margin-bottom: 0.6em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-weight: 700;
 }
 
@@ -181,6 +222,7 @@
   left: 0;
   right: 0;
   z-index: -1;
+  // height: 100vh;
 }
 
 
@@ -495,6 +537,20 @@
   .evolt-banner {
     height: 100%;
   }
+
+  .evolt-banner h1 {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    font-size: 4em;
+  }
+
+  .evolt-banner h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    // padding-top: 1.2em;
+    // padding-bottom: 1.2em;
+    font-size: 1.2em;
+  }
 }
 
 
@@ -505,17 +561,23 @@
     height: 100%;
   }
   .evolt-banner h1 {
-    margin-top: 0.3em;
-    font-size: 8em;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    font-size: 6em;
   }
   .evolt-banner h2 {
     font-size: 2em;
+    margin-top: 0.5em;
     margin-bottom: 1.2em;
+    // padding-top: 1.2em;
+    // padding-bottom: 1.2em;
   }
   .form-inline.search-form .input-group {
     width: 40%;
   }
 }
+
+/*-- ================== Wordsrotator ====================== --*/
 
 .wordsrotator_words {
   display: inline-block;
