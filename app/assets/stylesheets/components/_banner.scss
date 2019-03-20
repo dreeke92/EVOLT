@@ -43,13 +43,12 @@
 .evolt-logo-container{
   display: flex;
   justify-content: flex-end;
+  height: 136px;
 }
 .evolt-logo{
 
   // right: 10px;
   // top: 10px;
-  height: 136px;
-  width: 132px;
   margin: 5px;
 }
 
@@ -200,7 +199,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 8em;
   color: #ffffff;
-  margin-top: 0em;
+  padding-top: 0.4em;
   margin-bottom: 0.5em;
   line-height: 1;
   text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
