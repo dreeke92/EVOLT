@@ -200,7 +200,7 @@
   margin: 0;
   height: 100vh;
   // background: #0D0D1A url('https://www.expatica.com/be/wp-content/uploads/sites/4/2018/02/brussels2.jpg') no-repeat;
-  background-image: linear-gradient(-225deg, rgba(#0D0D1A,0.7) 50%, rgba(#0D0D1A,0.7) 100%), url('https://www.expatica.com/be/wp-content/uploads/sites/4/2018/02/brussels2.jpg');
+  background-image: linear-gradient(-225deg, rgba(#0D0D1A,0.7) 50%, rgba(#0D0D1A,0.7) 100%), url('brussels.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -632,7 +632,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("") center top no-repeat fixed;
+  background: url("Belgium-houses.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -774,7 +774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url() fixed center center;
+  background: linear-gradient(rgba(64,90,114,0.5), rgba(64,90,114,0.9)), url('brussels-blue.jpg') fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -845,7 +845,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -1043,28 +1043,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Clients Section
 --------------------------------*/
 
-#clients {
+#partners {
   padding: 60px 0;
 }
 
-#clients img {
+#partners img {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
 }
 
-#clients img:hover {
+#partners img:hover {
   opacity: 1;
 }
 
-#clients .owl-nav,
-#clients .owl-dots {
+#partners .owl-nav,
+#partners .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#clients .owl-dot {
+#partners .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -1073,7 +1073,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #ddd;
 }
 
-#clients .owl-dot.active {
+#partners .owl-dot.active {
   background-color: #18d26e;
 }
 
