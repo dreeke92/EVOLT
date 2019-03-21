@@ -8,6 +8,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.welcome-logo-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.2em;
+}
+
+.welcome-logo-image{
+  width: 170px;
+  height: 135px;
+}
+.welcome-logo-text{
+  width: 237px;
+  height: 80px;
+}
 
 .welcome-section body {
   background: #fff;
