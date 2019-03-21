@@ -1,5 +1,7 @@
 import "bootstrap";
 import "jquery";
+import "webpack-jquery-ui";
+import "webpack-jquery-ui/css";
 
 // import local javascript
 import { activeNavigation } from '../components/navbar'
