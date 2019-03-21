@@ -216,7 +216,7 @@ TABLE OF CONTENTS
     /*-- ================================ --*/
     $(document).ready(function () {
       //-- 2.1 activate wow js
-      new WOW().init();
+      // new WOW().init();
       //-- 2.2 activate wordsrotator
       $("#sub-title").wordsrotator({
         autoLoop: true, //auto rotate words
