@@ -8,6 +8,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.welcome-logo-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.2em;
+}
+
+.welcome-logo-image{
+  width: 170px;
+  height: 135px;
+}
+.welcome-logo-text{
+  width: 237px;
+  height: 80px;
+}
 
 .welcome-section body {
   background: #fff;
@@ -617,7 +632,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;

@@ -1,5 +1,3 @@
-// import "wow";
-
 function bannerVisuals() {
 
 /*
