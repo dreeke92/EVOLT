@@ -43,7 +43,7 @@
 .evolt-logo-container{
   display: flex;
   justify-content: flex-end;
-  height: 136px;
+  height: 80px;
 }
 .evolt-logo{
 
@@ -207,7 +207,7 @@
 
 .evolt-banner h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   color: #ffffff;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -435,6 +435,7 @@
   display: block;
 }
 
+
 .evolt-banner ul.social-icons li a:hover,
 .evolt-banner ul.social-icons li a:active,
 .evolt-banner ul.social-icons li a:focus {
@@ -544,8 +545,8 @@
 
   .evolt-banner h1 {
     margin-top: 0.2em;
-    margin-bottom: 1em;
-    font-size: 4em;
+    margin-bottom: 0.6em;
+    font-size: 3em;
   }
 
   .evolt-banner h2 {
@@ -553,7 +554,7 @@
     margin-bottom: 0.5em;
     // padding-top: 1.2em;
     // padding-bottom: 1.2em;
-    font-size: 1.2em;
+    font-size: 1.0em;
   }
 }
 

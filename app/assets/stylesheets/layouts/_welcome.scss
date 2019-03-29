@@ -17,12 +17,43 @@
 
 .welcome-logo-image{
   width: 170px;
-  height: 135px;
+  // height: 135px;
 }
 .welcome-logo-text{
   width: 237px;
-  height: 80px;
+  // height: 80px;
 }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+  .welcome-logo-image{
+  width: 85px;
+  // height: 135px;
+  }
+  .welcome-logo-text{
+    width: 117px;
+  // height: 80px;
+  }
+}
+
+
+
+
+
+
+
 
 .welcome-section body {
   background: #fff;
@@ -1553,7 +1584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    max-height: 40px;
+    // max-height: 40px;
   }
 
   #intro h2 {
