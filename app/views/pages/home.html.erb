@@ -35,10 +35,22 @@
             <!-- 6.2 HOME & RETURN BUTTONS -->
             <ul class="return-btn center-block">
               <li>
-                <a href="#" class="wow slideInLeft">Learn more<span class="icons-container"><span class="home-icon"></span></span></a>
+                <%= link_to welcome_path, class: 'wow slideInLeft' do %>
+                  Home
+                  <span class="icons-container">
+                    <span class="home-icon">
+                    </span>
+                  </span>
+                <% end %>
               </li>
               <li>
-                <a href="#" class="wow slideInRight">Home<span class="icons-container"><span class="return-icon"></span></span></a>
+                <%= link_to welcome_path(:anchor => "services"), class: 'wow slideInRight' do %>
+                  About Evolt
+                  <span class="icons-container">
+                    <span class="home-icon">
+                    </span>
+                  </span>
+                <% end %>
               </li>
             </ul>
 

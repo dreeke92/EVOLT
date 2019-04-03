@@ -8,6 +8,7 @@ import {WOW} from 'wowjs';
 import { activeNavigation } from '../components/navbar'
 import { headerScroll } from '../components/navbar'
 import { smoothScroll } from '../components/navbar'
+import { smoothScrollButton } from '../components/topbutton'
 import { toTopButton } from '../components/topbutton'
 import { bannerVisuals } from '../components/banner'
 import { mobileNavigation }  from '../mobile/navigation'
@@ -18,6 +19,7 @@ new WOW().init();
 activeNavigation();
 headerScroll();
 smoothScroll();
+smoothScrollButton();
 toTopButton();
 // mobileNavigation();
 
