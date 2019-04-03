@@ -142,7 +142,7 @@
           <div class="about-col">
             <div class="img">
               <%= image_tag("empathy.jpg", :class => "img-fluid") %>
-              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              <div class="icon"><i class="fas fa-hands-helping"></i></div>
             </div>
             <h2 class="title"><a href="#">Empathy</a></h2>
             <p>
@@ -155,7 +155,7 @@
           <div class="about-col">
             <div class="img">
               <%= image_tag("customization.jpg", :class => "img-fluid") %>
-              <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              <div class="icon"><i class="fas fa-pencil-ruler"></i></div>
             </div>
             <h2 class="title"><a href="#">Customization</a></h2>
             <p>
@@ -168,7 +168,7 @@
           <div class="about-col">
             <div class="img">
               <%= image_tag("implementation.jpg", :class => "img-fluid") %>
-              <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              <div class="icon"><i class="fas fa-fist-raised"></i></div>
             </div>
             <h2 class="title"><a href="#">Implementation</a></h2>
             <p>
@@ -191,17 +191,12 @@
 
       <header class="section-header">
         <h3>Our Partners</h3>
+        <p>We don't know it all, and we gladly admit that. Whenever we believe that your needs do not align we our expertise, we'll tell you. Evolt has a broad network of experts, and we'll gladly recommend you to them whenever you seem fit.</p>
       </header>
 
-      <div class="owl-carousel clients-carousel">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+      <div class="owl-carousel clients-carousel partners-box">
+        <a href="http://atolo.eu/" target="_blank"><%= image_tag("atolo.png", :class => "img-partners") %></a>
+        <a href="https://devizer.io/" target="_blank"><%= image_tag("devizer.png", :class => "img-partners") %></a>
       </div>
 
     </div>
@@ -212,9 +207,10 @@
     ============================-->
   <section id="call-to-action" class="wow fadeIn">
     <div class="container text-center">
-      <h3>Call To Action</h3>
-      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a class="cta-btn" href="#">Call To Action</a>
+      <h3>Our approach</h3>
+      <p>We don't know you and you don't know us. As we mentioned before, people are your greatest assets, and we want to get to know them. Thus, our first week on site is completely free. At the end of that week, we'll formulize our approach. At that moment, the go/no-go decision is still in your camp.
+      Would you like to know more about us? Let's have a chat in person.</p>
+      <a class="cta-btn" href="#contact">Get in touch</a>
     </div>
   </section><!-- #call-to-action -->
 
@@ -235,7 +231,7 @@
           <div class="contact-address">
             <i class="ion-ios-location-outline"></i>
             <h3>Address</h3>
-            <address>A108 Adam Street, NY 535022, USA</address>
+            <address>Av. de Tervurenlaan, 1040 Brussels, Belgium</address>
           </div>
         </div>
 
@@ -243,7 +239,7 @@
           <div class="contact-phone">
             <i class="ion-ios-telephone-outline"></i>
             <h3>Phone Number</h3>
-            <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            <p><a href="tel:+32472017172">+32 472 01 71 72</a></p>
           </div>
         </div>
 
@@ -251,7 +247,7 @@
           <div class="contact-email">
             <i class="ion-ios-email-outline"></i>
             <h3>Email</h3>
-            <p><a href="mailto:info@example.com">info@example.com</a></p>
+            <p><a href="mailto:info@evolt.consulting">info@evolt.consulting</a></p>
           </div>
         </div>
 
@@ -295,48 +291,48 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>Evolt</h3>
+            <p>The strategy consulting firm for Small and Medium Enterprises</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#services">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#about">Values</a></li>
+<!--               <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Av. De Tervurenlaan 32-34 / 6 <br>
+              1040 Brussels<br>
+              Belgium <br>
+              <strong>Phone:</strong> +32 472 01 71 72<br>
+              <strong>Email:</strong> info@evolt.consulting<br>
             </p>
 
-            <div class="social-links">
+<!--             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
+            </div> -->
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
+<!--           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
-          </div>
+          </div> -->
 
         </div>
       </div>
