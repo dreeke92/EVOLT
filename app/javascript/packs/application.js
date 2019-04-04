@@ -23,7 +23,6 @@ smoothScroll();
 smoothScrollButton();
 smoothScrollContact();
 toTopButton();
-// mobileNavigation();
-
+mobileNavigation();
 bannerVisuals();
 

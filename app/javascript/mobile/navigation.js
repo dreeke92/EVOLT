@@ -1,6 +1,7 @@
     // Mobile Navigation
 
 function mobileNavigation() {
+  console.log('im here')
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
       id: 'mobile-nav'
@@ -40,3 +41,5 @@ function mobileNavigation() {
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 };
+
+export { mobileNavigation };
