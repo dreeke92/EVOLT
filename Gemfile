@@ -12,6 +12,7 @@ gem 'jquery-ui-rails'
 gem 'jquery-migrate-rails'
 gem 'jquery-easing-rails'
 gem 'redis'
+gem 'cloudinary'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
